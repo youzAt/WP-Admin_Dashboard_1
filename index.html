@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Admin Dashboard - Youz.A.T</title>
+		<!---------- material icons --------->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<!---------- StyleSheet ------------>
+		<link rel="stylesheet" href="Styles/Style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<aside class="left-side">
+				<div class="logo-box">
+					<span>O</span>
+					<h2>Ohara</h2>
+				</div>
+				<button class="btn">Join a course</button>
+				<ul class="side-bar-menu">
+					<li>
+						<a href="#">
+							<span class="material-icons-outlined"> space_dashboard </span>
+							<h3>Dashboard</h3>
+						</a>
+					</li>
+					<li class="active">
+						<a href="#">
+							<span class="material-icons-outlined"> grid_view </span>
+							<h3>All courses</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="material-icons-outlined"> folder </span>
+							<h3>Resources</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="material-icons-outlined"> person_outline </span>
+							<h3>Friend</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="material-icons-outlined"> chat_bubble_outline </span>
+							<h3>Chats</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="material-icons-outlined"> settings </span>
+							<h3>Settings</h3>
+						</a>
+					</li>
+				</ul>
+				<div class="upgrade-box">
+					<img src="Assets/upgradeFolder.svg" />
+					<p>Upgrade to for more resources</p>
+					<button class="btn">Upgrade</button>
+				</div>
+			</aside>
+			<main>
+				<div class="header">
+					<div class="search-input">
+						<span class="material-icons-outlined"> search </span>
+						<input type="text" placeholder="Search" />
+					</div>
+					<span class="material-icons-outlined"> notifications </span>
+				</div>
+				<section class="courses-section">
+					<div class="nav-bar">
+						<h2>All courses</h2>
+						<ul>
+							<li class="active"><a href="#">Ongoing</a></li>
+							<li><a href="#">Favorite</a></li>
+							<li><a href="#">Complete</a></li>
+						</ul>
+					</div>
+					<div class="courses">
+						<div class="course">
+							<div class="course__top">
+								<div class="detail">
+									<h3>UI/UX Design</h3>
+									<span>20 lessons</span>
+								</div>
+								<div class="detail">
+									<span>2h 20min</span>
+								</div>
+							</div>
+							<div class="course__bottom">
+								<span class="material-icons play-btn"> play_arrow </span>
+								<img src="Assets/profile-1.png" />
+							</div>
+						</div>
+						<div class="course">
+							<div class="course__top">
+								<div class="detail">
+									<h3>Photography</h3>
+									<span>12 lessons</span>
+								</div>
+								<div class="detail">
+									<span>1h 30min</span>
+								</div>
+							</div>
+							<div class="course__bottom">
+								<span class="material-icons play-btn"> play_arrow </span>
+								<img src="Assets/profile-2.png" />
+							</div>
+						</div>
+						<div class="course">
+							<div class="course__top">
+								<div class="detail">
+									<h3>Animation</h3>
+									<span>12 lessons</span>
+								</div>
+								<div class="detail">
+									<span>2h 30min</span>
+								</div>
+							</div>
+							<div class="course__bottom">
+								<span class="material-icons play-btn"> play_arrow </span>
+								<img src="Assets/profile-3.png" />
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<aside class="right-side">
+				<div class="user-profile">
+					<img src="Assets/user-profile.png" alt="user img" />
+					<h3>Alexa Rogue</h3>
+					<span class="material-icons-outlined"> expand_more </span>
+				</div>
+				<div class="progress">
+					<h2>Progress</h2>
+					<div class="progress-courses">
+						<div class="progress-course">
+							<span class="material-symbols-outlined"> edit </span>
+							<div class="progress-title">
+								<h3>UI/UX Design</h3>
+								<span>Advanced</span>
+							</div>
+							<div class="progress-bar"></div>
+						</div>
+						<div class="progress-course">
+							<span class="material-symbols-outlined"> photo_camera </span>
+							<div class="progress-title">
+								<h3>Photography</h3>
+								<span>Intermediate</span>
+							</div>
+							<div class="progress-bar"></div>
+						</div>
+						<div class="progress-course">
+							<span class="material-symbols-outlined"> airwave </span>
+							<div class="progress-title">
+								<h3>Animation</h3>
+								<span>Advanced</span>
+							</div>
+							<div class="progress-bar"></div>
+						</div>
+					</div>
+				</div>
+				<div class="task-section">
+					<h2>Upcoming Task</h2>
+					<div class="tasks">
+						<div class="task">
+							<span class="material-symbols-outlined"> chat_bubble </span>
+							<div class="task-title">
+								<h3>UI/UX - Discussion</h3>
+								<span>27 Oct 2020, Tuesday</span>
+							</div>
+						</div>
+						<div class="task">
+							<span class="material-symbols-outlined"> view_in_ar </span>
+							<div class="task-title">
+								<h3>Animation - 3D Animation</h3>
+								<span>27 Oct 2020, Tuesday</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<img class="dl-img" src="Assets/download.png">
+			</aside>
+		</div>
+	</body>
+</html>
